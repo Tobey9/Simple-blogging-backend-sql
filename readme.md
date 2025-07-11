@@ -61,6 +61,8 @@ DB_NAME=blog_platform
 npm run dev
 ```
 
+---
+
 ## API ENDPOINTS
 
 **Create Post**
@@ -109,6 +111,8 @@ DELETE `/posts/:id`
 - Returns: `204 No Content`
 - Or `404 Not Found`
 
+---
+
 ## Database schema
 
 ```sql
@@ -122,6 +126,8 @@ CREATE TABLE posts (
   updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 ```
+
+---
 
 ## Folder structure
 
@@ -137,6 +143,8 @@ blogging-platform-node/
 ├── package.json
 └── README.md
 ```
+
+---
 
 ## Testing
 
