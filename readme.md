@@ -2,7 +2,7 @@
 
 A simple RESTful API for a personal blogging platform built with **Node.js**, **Express**, and **MySQL** (using `mysql2` directly, without an ORM).
 
----
+## roadmap.sh link: https://roadmap.sh/projects/blogging-platform-api
 
 ## 📌 Features
 
@@ -140,5 +140,5 @@ blogging-platform-node/
 
 ## Testing
 
-Use _ Postman, Thunder Client _ or any HTTP client to test the endpoint
+Use ** Postman, Thunder Client ** or any HTTP client to test the endpoint
 Set `Content-Type: application/json` in your headers
