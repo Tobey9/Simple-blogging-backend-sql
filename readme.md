@@ -32,7 +32,7 @@ git clone https://github.com/Tobey9/Simple-blogging-backend-sql.git
 cd Simple-blogging-backend-sql
 ```
 
-2. ** Install dependencies **
+2. **Install dependencies**
 
 ```bash
 npm install
@@ -63,7 +63,7 @@ npm run dev
 
 ## API ENDPOINTS
 
-** Create Post **
+**Create Post**
 POST `/posts`
 
 ```json
@@ -77,18 +77,18 @@ POST `/posts`
 
 - Returns: 201 Created + the new post
 
-** Get all posts **
+**Get all posts**
 GET `/posts`
 Optional Search `GET /posts?term=tech`
 
 - Returns: 200 OK + array of posts
 
-** Get single post **
+**Get single post**
 GET `/posts/:id`
 
 - Returns: 200 OK or 404 Not Found
 
-** Update post **
+**Update post**
 PUT `/posts/:id`
 
 ```json
@@ -103,7 +103,7 @@ PUT `/posts/:id`
 - Returns: 200 OK + updated post
 - Or 404 Not Found
 
-** Delete post **
+**Delete post**
 DELETE `/posts/:id`
 
 - Returns: `204 No Content`
@@ -140,5 +140,5 @@ blogging-platform-node/
 
 ## Testing
 
-Use ** Postman, Thunder Client ** or any HTTP client to test the endpoint
+Use **Postman, Thunder Client** or any HTTP client to test the endpoint
 Set `Content-Type: application/json` in your headers
